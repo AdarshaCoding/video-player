@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Title = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
         <nav className="">
           <ul className="flex space-x-12">
             <li className="cursor-pointer">Home</li>
-            <li className="cursor-pointer">About</li>
+            <li className="cursor-pointer">ABout</li>
             <li className="cursor-pointer">Contact</li>
           </ul>
         </nav>
